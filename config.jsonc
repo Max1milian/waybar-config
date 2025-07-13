@@ -27,8 +27,6 @@
         "backlight",
         "keyboard-state",
         "sway/language",
-        "battery",
-        "battery#bat2",
         "clock",
         "tray",
         "custom/power"
@@ -116,7 +114,7 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{percentage}%/{total} GiB "
     },
     "temperature": {
         // "thermal-zone": 2,
